@@ -3,7 +3,7 @@
 // Usage: PILOTERR_API_KEY=your-key php user_info.php
 
 $params = http_build_query([
-    'query' => 'https://kick.com/xqc',
+    'query' => 'https://kick.com/example-user',
 ]);
 
 $ch = curl_init('https://api.piloterr.com/v2/kick/user/info?' . $params);

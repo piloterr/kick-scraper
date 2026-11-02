@@ -5,7 +5,7 @@ require "net/http"
 require "uri"
 
 uri = URI("https://api.piloterr.com/v2/kick/user/info")
-uri.query = URI.encode_www_form('query' => 'https://kick.com/xqc')
+uri.query = URI.encode_www_form('query' => 'https://kick.com/example-user')
 
 request = Net::HTTP::Get.new(uri)
 request["x-api-key"] = ENV.fetch("PILOTERR_API_KEY")

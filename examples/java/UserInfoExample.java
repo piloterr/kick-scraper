@@ -14,7 +14,7 @@ public class UserInfoExample {
     }
 
     public static void main(String[] args) throws Exception {
-        String query = "query=" + enc("https://kick.com/xqc");
+        String query = "query=" + enc("https://kick.com/example-user");
 
         HttpRequest request = HttpRequest.newBuilder()
             .uri(URI.create("https://api.piloterr.com/v2/kick/user/info?" + query))

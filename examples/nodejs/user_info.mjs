@@ -2,7 +2,7 @@
 // Usage: PILOTERR_API_KEY=your-key node user_info.mjs
 
 const params = new URLSearchParams({
-  "query": "https://kick.com/xqc",
+  "query": "https://kick.com/example-user",
 });
 
 const response = await fetch(`https://api.piloterr.com/v2/kick/user/info?${params}`, {

@@ -5,4 +5,4 @@ set -euo pipefail
 
 curl -sS -G "https://api.piloterr.com/v2/kick/user/info" \
   -H "x-api-key: ${PILOTERR_API_KEY}" \
-  --data-urlencode query=https://kick.com/xqc
+  --data-urlencode query=https://kick.com/example-user
